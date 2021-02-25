@@ -22,7 +22,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/MyFirstDatabase
 
 //require(apiRoute)(app);
 require("./routes/htmlRoutes.js")(app);
-require("./routes/apirRoutes.js")(app);
+require("./routes/apiRoutes.js")(app);
 
 app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
