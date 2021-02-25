@@ -3,6 +3,9 @@ Project 17 required me to build out the MVC parameters for a fitness workout log
 
 The more labor intensive parts included setting up the server, routing for API and HTML, and Heroku deployment. 
 
+![image info](./images/Screenshot.png)
+
+
 # Installation
 To install this application, first, branch the Github Repo and clone the repo to your computer. Then, you will need to install the node dependencies which can be done by running the npm install command in your terminal.
 
